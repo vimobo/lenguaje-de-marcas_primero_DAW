@@ -1,0 +1,38 @@
+img {
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+div {
+    position: absolute;
+}
+
+#c1 {
+    top:  100px;
+    left: 50px;
+    z-index: 1;
+}
+#c2 {
+    top:  130px;
+    left: 80px;
+    z-index: 2;
+}
+#c3 {
+    top:  160px;
+    left: 110px;
+    z-index: 2;
+}
+#c4 {
+    top:  190px;
+    left: 140px;
+    z-index: 2;
+}
+#c5 {
+    top:  220px;
+    left: 170px;
+    z-index: 2;
+}
+img:hover {
+
+ top: 50px;
+}

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ciclos>
+<daw1>
+    <asignatura>
+      <nombre_asignatura>Programación</nombre_asignatura>
+      <profesor>Manuel Diaz García</profesor>
+      <total_horas>8 H</total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura>Sistemas Informáticos</nombre_asignatura>
+      <profesor>José Antonio Pérez Aguilera</profesor>
+      <total_horas>6 H</total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura>Entornos de Desarollo </nombre_asignatura>
+      <profesor>Álvaro Pérez Luque</profesor>
+      <total_horas>3 H</total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura>Base de Datos</nombre_asignatura>
+      <profesor>Francisco Martínez-Echeverría Romero</profesor>
+      <total_horas>8H</total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura>Sostenibilidad</nombre_asignatura>
+      <profesor>José Antonio Pérez Aguilera</profesor>
+      <total_horas>1 H</total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura>Digitalización Aplicada a los Sectores Productivos</nombre_asignatura>
+      <profesor>Manuel Díaz García</profesor>
+      <total_horas>1 H</total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura>Lenguaje de Marcas</nombre_asignatura>
+      <profesor>María Belén Callejón Prieto</profesor>
+      <total_horas>4 H</total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura>FOL</nombre_asignatura>
+      <profesor>Joaquín Fulleda Marhuenda</profesor>
+      <total_horas>3 H</total_horas>
+    </asignatura>
+</daw1>
+
+<daw2>
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+</daw2>
+
+<daw3>
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+    
+    <asignatura>
+      <nombre_asignatura></nombre_asignatura>
+      <profesor></profesor>
+      <total_horas></total_horas>
+    </asignatura>
+</daw3>
+</ciclos>

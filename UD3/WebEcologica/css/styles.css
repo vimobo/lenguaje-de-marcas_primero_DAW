@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+
+@font-face {
+    font-family: 'MiFuenteLocal';
+    src: url('../fonts/mi-fuente-local.ttf') format('truetype');
+}
+
+.tarjeta-producto {
+    font-family: 'MiFuenteLocal', sans-serif;
+    border: outset;
+    border-color: green;
+    margin: 10%;
+    background: linear-gradient(rgba(0, 255, 26, 0.142), rgb(255, 255, 255));
+}
+
+.titulo-producto {
+    font-family: 'Mystery Quest';
+    text-align: center;
+    font-size: 400%;
+    color: green;
+}
+
+.subtitulo-producto {
+    text-align: center;
+    
+}
+
+#descripcion-imagen {
+    background-image: url("https://www.mvgarden.com/garden-center/wp-content/uploads/2024/03/Tomates.jpg");    
+    color: rgb(255, 255, 255);
+    background-size: cover; 
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding: 100px;
+}
+
+.info-extra {
+    background-color: rgb(95, 230, 95);
+    padding: 30px;
+}
+
+.pie-producto {
+    background-color: green;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+}

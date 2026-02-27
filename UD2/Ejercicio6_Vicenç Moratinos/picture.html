@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <picture controls>
+        <source src="./imagen.webp" type="image/webp">
+        <source src="./imagen.jpg" type="image/jpeg">
+        <img src="./imagen.jpg" alt="Descripción de la imagen en caso de no poder mostrarse.">
+     </picture>
+
+     <picture>
+    <source media="(max-width: 600px)" srcset="imagen-vertical.jpg">
+    <source media="(min-width: 601px)" srcset="imagen-horizontal.jpg">
+    <img src="imagen-horizontal.jpg" alt="Imagen adaptable según el tamaño de la pantalla.">
+  </picture>
+    </main>
+</body>
+</html>

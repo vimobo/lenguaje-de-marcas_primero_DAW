@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Mostrar los ficheros a elegir y seleccionar solo uno:</h3>
+    <form action="/accion.php" method="post">
+    <label for="myfile">Elija un fichero:</label>
+    <input type="file" id="myfile" name="myfile">
+    <input type="submit">
+    </form>
+    <h3>Mostrar los ficheros a elegir y seleccionar varios:</h3>
+    <form action="/accion.php" method="post">
+    <label for="myfile">Elija los ficheros: </label>
+    <input type="file" id="myfile" name="myfile" multiple>
+    <input type="submit">
+    </form>
+</body>
+</html>

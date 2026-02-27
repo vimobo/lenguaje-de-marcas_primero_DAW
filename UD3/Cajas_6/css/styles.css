@@ -1,0 +1,12 @@
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 2em;
+}
+

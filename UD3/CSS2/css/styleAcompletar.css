@@ -1,0 +1,29 @@
+body {
+
+}
+a:hover {
+    color: blue;
+    font-size: 1rem; 
+}
+a {
+    color: red;
+}
+b {
+   font-weight: bold ;
+   color: red;
+}
+.prueba {
+    text-decoration:underline ;
+}
+#prueba2 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+h3 {
+    b {
+        text-decoration:underline ;
+    }
+
+    color: blue;
+}

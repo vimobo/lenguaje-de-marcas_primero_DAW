@@ -1,0 +1,46 @@
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+ul:first-of-type {
+
+    
+    li:first-child {
+        background-color: grey;
+    }
+    
+    li:last-child {
+        background-color: blue;
+        color: aliceblue;
+        list-style-type: none;
+    }
+}
+
+ul:last-of-type {
+
+    border-width: 1px;
+    border-style: solid;
+
+    li:first-child {
+        background-color: grey;
+    }
+    li:nth-child(2) {
+        color: gold;
+    }
+}
+p::first-letter {
+    color: red;
+font-size: 50px;}
+
+p::first-line {
+    color: blue;
+    font-size: larger;
+}
+
+p::after {
+    content: "FIN";
+    border: 1px solid;
+    border-color: green;
+
+}

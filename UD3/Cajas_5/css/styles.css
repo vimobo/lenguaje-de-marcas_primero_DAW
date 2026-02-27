@@ -1,0 +1,24 @@
+nav ul {
+    display: flex;
+    background-color: #808080;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    
+}
+
+nav a {
+    display: block;
+    padding: 2em;
+    background-color: gray;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ul li ul {
+    display: none;
+}
+
+nav ul li a:hover + ul, ul li ul:hover {
+    display: block;
+}

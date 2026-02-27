@@ -1,0 +1,9 @@
+div {
+    width: 700px;
+    height: 200px;
+    border-color: brown ;
+    background-color: orange;
+    border: solid 4px;
+    border-color: brown;
+      box-shadow: inset 0px 0px 20px 20px rgba(255, 242, 0, 0.679);
+}

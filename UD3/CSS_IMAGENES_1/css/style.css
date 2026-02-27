@@ -1,0 +1,21 @@
+@font-face {
+    font-family: fuente-local;
+    src:url(../fonts/DaysLater.ttf);
+}
+
+#huertos {
+    padding: 1em;
+    color: whitesmoke;
+    font-weight: bolder;
+    background-image: url(../images/huerta.jfif);
+}
+
+#noticia {
+    padding: 1;
+    background:linear-gradient(to bottom, rgb(210,190,190),aquamarine) ;
+}
+
+h1 {
+    font-family: fuente-local;
+    font-size: 100px;
+}

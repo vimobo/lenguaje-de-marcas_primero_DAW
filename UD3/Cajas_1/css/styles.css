@@ -1,0 +1,34 @@
+header {
+    background-color: burlywood;
+    size-adjust: ;
+    tex
+    margin: 20px;
+}
+
+nav {
+    background-color: aquamarine;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+section{
+    background-image: url(../src/banner.jpg);
+    height: 200px;
+    text-align: center;
+    color: aliceblue;
+    aside {
+        background-color: purple;
+        width: 200px;
+        text-align: center;
+        opacity: 70%;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+footer {
+    background-color: orange;
+    padding: 40px;
+    text-align: center;
+}

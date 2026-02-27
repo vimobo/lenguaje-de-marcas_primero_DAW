@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inputlabel</title>
+</head>
+<body>
+    <form action="./login.php" method="post">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email" placeholder="nombre@correo.com">
+        <label for="pin">Pin 4 digitos</label>
+        <input type="password" id="pin" name="pin" maxlength="4" required pattern="[0-9]{4}"
+        inputmode="numeric"
+        title="debe ser un pin de 4 nuemros">
+        <input type="submit" value="Iniciar sesion">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
