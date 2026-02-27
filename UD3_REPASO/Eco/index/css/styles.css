@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: green;
+}
+
+header p{
+    color: rosybrown;
+    text-align: center;
+}
+
+.tarjeta-producto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 2px solid black;
+        border-radius: 10px;
+
+   
+    background-color: blue;
+    box-shadow: 10px 10px 5px  ;
+}
+
+#descripcion-imagen {
+    height: 300px;
+    padding: 20px;
+    background-image: url(https://dehesaelmilagro.com/cdn/shop/articles/Tomates_peque.jpg?v=1570427028);
+}
+body {
+    background-color: aquamarine;
+    
+}
+
+div {
+    position: relative;
+}
+footer {
+padding: 15px;
+    background-color: burlywood;
+}
