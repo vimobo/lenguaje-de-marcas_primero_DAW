@@ -1,0 +1,57 @@
+header {
+    text-align: center;
+    padding-top: 40px;
+
+    background-color: beige;
+    font-size: 40px;
+}
+
+header nav {
+
+background-color: blue;
+width: 500px;
+height: 80px;
+text-align: center;
+}
+
+section {
+    text-align: center;
+    height: 150px;
+    background-color: brown;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+aside{
+    background-color:aqua;
+    opacity: 50%;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+footer {
+    background-color: chocolate;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+}
+
+#d1 {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items:center;
+}
+#d2 {
+    width: 50%;
+    background-color: azure;
+    height: 50%;
+}

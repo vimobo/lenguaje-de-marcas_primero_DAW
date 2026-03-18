@@ -1,0 +1,27 @@
+p{
+    float: left;
+   
+    width: 20%;
+    
+ margin: 20px;
+    height: 200px;
+padding: 20px;    
+background-color: aqua;
+
+    border: 2px blue;
+    border-style: dashed;
+    box-shadow: 10px 10px 10px beige;
+    border-radius: 10px;
+
+}
+
+p::first-letter{
+    font-size: 40px;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    letter-spacing: 20px;
+}
