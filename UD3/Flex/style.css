@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: lightcoral;
+    
+}
+
+nav {
+    background-color: aquamarine;
+    margin: 20px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+li {
+    display: flex;
+    width: 20%;
+    height: 10vh;
+    justify-content: center;
+}
+
+a{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+div {
+    padding: 20px;
+    margin: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+}

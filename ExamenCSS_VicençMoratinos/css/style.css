@@ -1,0 +1,171 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient( #f5f0ff, #fff5f8);
+    width: 100%;
+    margin: 0%;
+    
+
+}
+
+header {
+    padding: 10px;
+    background:linear-gradient(to right, #7b2cbf, #c77dff) ;
+}
+
+nav{
+    background:linear-gradient(to right, #7b2cbf, #c77dff) ;
+    box-shadow: 1px 1px 1px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    list-style: none;
+    width: 150px;
+    text-align: center;
+
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #5f189d6a;
+    opacity: 50%;
+    transform:translateY(2px) ;
+}
+
+nav li ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    
+    display: block;
+    position: absolute;
+    background-color: #7b2cbf;
+    box-shadow: 2px solid wheat;
+}
+
+nav ul li ul li:hover > ul {
+    display: flex;
+    left: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    text-shadow: 1px 1px 1px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    color: #7b2cbf;
+}
+
+h3 {
+    text-align: center;
+    color: #7b2cbf;
+}
+
+.biografias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+article {
+    flex-basis: calc(33% -2em);
+    min-height:350px ;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    min-width: 200px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+
+
+}
+
+
+
+article:hover {
+    transform: translateY(-8px);
+    box-shadow: 15px 15px 15xp;
+}
+
+article img:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+}
+
+article img {
+    height: 250px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+article h3{
+    text-align: left;
+}
+
+article h4{
+    text-align: left;
+    color: #7b2cbf;
+    font-style: oblique;
+}
+
+article p {
+    
+    justify-content: auto; }
+
+
+.grande {
+    min-width: 500px;
+    width: 40%;
+    flex-basis: calc(66%- 2rem);
+}
+
+.grande li {
+    list-style: none;
+    text-align: start;
+    list-style-type: "♀ - ";
+
+}
+
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+    height: 100px;
+    background: linear-gradient(to left, #7b2cbf,#a49eaa);
+}
+
+blockquote {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-style: oblique;
+    color: white;
+}
