@@ -1,0 +1,32 @@
+
+ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+list-style: none;
+
+}
+
+
+a {
+    display: block;
+    padding: 2em;
+    background-color: gray;
+    margin: 5px;
+    text-decoration: none;
+    color: wheat;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li a:hover + ul, ul li ul:hover {
+    display: block;
+}
+
+ul li a:hover + ul, ul li a:hover {
+    display: block;
+    color: blue;
+    background-color: black;
+}
