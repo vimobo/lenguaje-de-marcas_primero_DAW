@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+}
+
+ul {
+
+    width: 100%;
+    display: flex;
+}
+
+li {
+    background-color: gray;
+    width: 20%;
+    height: 10%;
+    margin-right: 5px;
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    background-color: black;
+    a {
+
+        color: gray;
+    }
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.312);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: antiquewhite;
+    margin: 0px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.bloqueGrande {
+    border-bottom: 2px dotted black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.bloque {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#nombres {
+    display: flex;
+}
+
+#direccion {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloqueDe3 {
+    display: flex;
+    gap: 2%;
+}
+
+#contacto {
+    display: flex;
+}
+
+label {
+    color:crimson;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 50px;
+}
+
+input[type = submit] {
+    margin: 50px;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
