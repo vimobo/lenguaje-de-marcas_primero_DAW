@@ -5,28 +5,39 @@ body{
 
 h1 {
     color: white;
-    text-align: right;
+    display: flex;
+    justify-content: end;
 }
 
-article {
-    display: flex;
+main {
+    max-width:100vw ;
 }
-div:nth-child(even) {
+section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+article:nth-child(even) {
     background-color: aqua;
 }
 
-div {
-    width: 60vw;
+article {
+    width: 600px;
+    flex: 1;
+    max-width: 600px;
     background-color: blue;
     align-content: center;
     text-align: center;
-    display: block;
 }
 
-div p{
+article p{
     text-align: left;
 }
-div img {
-    max-width: 60vw;
+article img {
+    max-width: 600px;
     margin: 2px;
+}
+
+article:nth-child(3) {
+    background-color: bisque;
 }
