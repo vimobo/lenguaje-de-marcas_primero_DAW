@@ -1,0 +1,34 @@
+ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+
+}
+
+nav {
+
+    width: 90%;
+}
+a {
+    margin-bottom: auto;
+    margin-top: auto;
+
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    background-color: aqua;
+}
+
+ul li ul{
+    display: none;
+}
+
+ul li:hover > ul {
+    display: block;
+} 

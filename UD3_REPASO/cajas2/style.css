@@ -1,0 +1,47 @@
+a{
+    text-decoration:underline;
+    list-style: none;
+    color: red;
+    margin: auto;
+
+    background-color: rebeccapurple;
+  
+}
+
+li {
+    display: flex;
+    list-style: none;
+    width: 20%;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 5px;
+    
+    
+    
+}
+ul{
+    display: flex;
+
+}
+
+nav {
+    display: block;
+}
+p {
+    float: left;
+}
+
+#p1 {
+    background-color: red;
+}
+#p2 {
+    background-color: gray;
+    float: inline-end;
+
+}
+#p3 {
+    float: inline-end;
+
+    background-color: rebeccapurple;
+}

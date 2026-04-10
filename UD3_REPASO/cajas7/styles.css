@@ -1,0 +1,18 @@
+
+div {
+position: relative;
+}
+
+#a1{
+    top: 70px;
+    left: 50px;
+}
+
+
+#a2{
+    top: 100px;
+    left: 80px;
+}
+body{
+    margin: 0px;
+}

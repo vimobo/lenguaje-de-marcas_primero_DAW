@@ -1,0 +1,17 @@
+div{
+    height: 2000px;
+    background-color: blue;
+    background: linear-gradient(blue, red)
+}
+body{
+    background-color: black;
+}
+footer {
+    position: absolute;
+
+    left: 0px;
+    bottom: 0cqb;
+    height: 10%;
+    background-color: aquamarine;
+    width: 100%;
+}
